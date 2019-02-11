@@ -1,7 +1,32 @@
 {
-  "rooms": [
-    { "name": "Kitchen", "temperature": 20.1, "humidity": 40.4 },
-    { "name": "Basement", "temperature": 18.3, "humidity": 52.6 },
-    { "name": "Bathroom", "temperature": 26.4, "humidity": 68.7 }
+  "homes": [
+    { 
+      "id": "1",
+      "name": "Main house",
+      "rooms": [
+        { "name": "Kitchen", "temperature": 20.1, "humidity": 40.4 },
+        { "name": "Basement", "temperature": 18.3, "humidity": 52.6 },
+        { "name": "Balcony", "temperature": 17.4, "humidity": 48.7 }
+      ]
+    },
+    { 
+      "id": "2",
+      "name": "Summer house", 
+      "rooms": [
+        { "name": "Hallway", "temperature": 25.3, "humidity": 43.2 },
+        { "name": "Attic", "temperature": 22.6, "humidity": 44.8 },
+        { "name": "Sunroom", "temperature": 25.7, "humidity": 42.5 }
+      ]
+    },
+    { 
+      "id": "3",
+      "name": "Winter cottage", 
+      "rooms": [
+        { "name": "Wardrobe", "temperature": 17.5, "humidity": 35.5 },
+        { "name": "Garage", "temperature": 14.2, "humidity": 34.8 },
+        { "name": "Bathroom", "temperature": 17.3, "humidity": 33.2 }
+      ]
+    }
   ]
+  
 }
