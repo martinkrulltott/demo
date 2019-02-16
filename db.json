@@ -4,13 +4,10 @@
       "id": "1",
       "name": "Main house",
       "rooms": [
-        { "id": "10", "name": "Kitchen", "description": "Above the fridge", "temperature": 32.1, "humidity": 40.4, "battery": 2.5 },
+        { "id": "10", "name": "Kitchen", "description": "Above the fridge", "temperature": 32.1, "humidity": 40.4, "battery": 2.5, "warnings": ["temperatureHigh"] },
         { "id": "11", "name": "Basement", "description": "Next to the stairs", "temperature": 18.3, "humidity": 52.6, "battery": 2.6 },
         { "id": "12", "name": "Balcony", "description": "Outside, south west", "temperature": 17.4, "humidity": 48.7, "battery": 2.8 }
       ],
-      "warnings": [
-        { "id": "90", "roomId": "10", "type": "temperatureHigh" }
-      ]
     },
     { 
       "id": "2",
@@ -26,13 +23,9 @@
       "name": "Winter cottage", 
       "rooms": [
         { "id": "16", "name": "Wardrobe", "description": "In bedroom", "temperature": 17.5, "humidity": 35.5, "battery": 2.4 },
-        { "id": "17", "name": "Garage", "description": "Next to the door", "temperature": 14.2, "humidity": 34.8, "battery": 2.1 },
-        { "id": "18", "name": "Bathroom", "description": "Above the sink", "temperature": 17.3, "humidity": 80.2, "battery": 2.3 }
+        { "id": "17", "name": "Garage", "description": "Next to the door", "temperature": 14.2, "humidity": 34.8, "battery": 2.1, "warnings": ["temperatureLow", "batteryLow"] },
+        { "id": "18", "name": "Bathroom", "description": "Above the sink", "temperature": 17.3, "humidity": 80.2, "battery": 2.3, "warnings": ["humidityHigh"] }
       ],
-      "warnings": [
-        { "id": "91", "roomId": "17", "type": "temperatureLow" },
-        { "id": "92", "roomId": "18", "type": "humidityHigh" }
-      ]
     }
   ]
   
